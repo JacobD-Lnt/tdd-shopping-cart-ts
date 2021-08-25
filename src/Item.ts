@@ -8,4 +8,15 @@ export default class Item {
         this.price = price;
         this.onSale = onSale;
     }
+
+    public GetPrice()
+    {
+        return this.price;
+    }
+
+    public GetName()
+    {
+        return this.name;
+    }
 }
+
